@@ -1,19 +1,23 @@
-Functionality (use case) - I want to use a kettle to make tea
+<!-- Functionality (use case) - I want to use a kettle to make tea
 
 Does kettle have power
 Does kettle have water
 User turns on kettle
 User sets water temperature
-User pours water in teacup
+User pours water in teacup -->
 
+# MAKING A CUP OF TEA
 
 START: Start the Program
 
-INIT:
+INIT / OBJECTS:
 kettle
 water
-tea bag
-teacup
+teaBag
+teaCup
+lemon
+sugar
+teaSpoon
 
 FUNCTION: turn kettle on
 
@@ -23,7 +27,7 @@ FUNCTION: INPUT water temperature
     THEN turn on
      ENDIF
 
-2. IF water > 160°F
+2. IF water = 160°F
     Then add water to teaCup
      ENDIF
 
@@ -31,11 +35,11 @@ FUNCTION: INPUT water temperature
     THEN add teaBag
      ENDIF
 
-4. IF time > 4min
+4. IF time = 4min
     THEN take teaBag out
      ENDIF
 
-4. ADD Lemon and suger
+4. ADD Lemon and sugar
 
 FUNCTION: stir
 
