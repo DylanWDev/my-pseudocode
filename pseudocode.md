@@ -8,41 +8,52 @@ User pours water in teacup -->
 
 # MAKING A CUP OF TEA
 
-START: Start the Program
+## INIT:
+### 1. Ingredients 
+ > * lemon  
+ > * sugar  
+ > * water  
+ > * teaBag  
 
-INIT / OBJECTS:
-kettle
-water
-teaBag
-teaCup
-lemon
-sugar
-teaSpoon
+### 2. Tools
+ > * kettle  
+ > * teaSpoon  
+ > * teaCup  
 
-FUNCTION: turn kettle on
+## FUNCTIONALITY
+```
+START: Starts Program
 
-FUNCTION: INPUT water temperature
+FUNCTION checkPower
+    * IF kettle has power
+      THEN turn on
+       ENDIF
 
-1. IF kettle has power
-    THEN turn on
-     ENDIF
+FUNCTION inputWaterTemp(Temp)
 
-2. IF water = 160°F
-    Then add water to teaCup
-     ENDIF
+FUNCTION checkWaterTemp
+    * IF water = 160°F
+     Then add water to teaCup
+      ENDIF
 
-3. IF teaCup has water
+FUNCTION addLemonAndSuger
+    teaCup + Lemon
+    teaCup + Suger
+
+1. IF teaCup has water
     THEN add teaBag
      ENDIF
 
-4. IF time = 4min
+2. IF time = 4min
     THEN take teaBag out
      ENDIF
 
-4. ADD Lemon and sugar
 
-FUNCTION: stir
+FUNCTION: mixTea pickup teaSpoon stir
 
 END: end the program
+```
+
+
 
 
