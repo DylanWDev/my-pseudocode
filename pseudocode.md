@@ -6,7 +6,7 @@ User turns on kettle
 User sets water temperature
 User pours water in teacup -->
 
-# MAKING A CUP OF TEA
+# MAKING A CUP OF TEA 🍵
 
 ## INIT:
 ### 1. Ingredients 
@@ -34,11 +34,12 @@ FUNCTION inputWaterTemp(Temp)
 FUNCTION checkWaterTemp
     * IF water = 160°F
      Then add water to teaCup
-      ENDIF
+       ELSE continue waiting
+        ENDIF
 
 FUNCTION addLemonAndSuger
-    teaCup + Lemon
-    teaCup + Suger
+    teaCup += Lemon
+    teaCup += Suger
 
 1. IF teaCup has water
     THEN add teaBag
@@ -46,6 +47,7 @@ FUNCTION addLemonAndSuger
 
 2. IF time = 4min
     THEN take teaBag out
+      ELSE continue waiting
      ENDIF
 
 
