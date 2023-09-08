@@ -20,10 +20,10 @@ User pours water in teacup -->
  > * teaSpoon  
  > * teaCup  
 
-## FUNCTIONALITY
-```
-START: Starts Program
+## FUNCTIONALITY  
 
+#### START: Start Program
+```
 FUNCTION checkPower
     * IF kettle has power
       THEN turn on
@@ -52,9 +52,8 @@ FUNCTION addLemonAndSuger
 
 
 FUNCTION: mixTea pickup teaSpoon stir
-
-END: end the program
 ```
+#### END: end the program
 
 
 
